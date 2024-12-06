@@ -15,10 +15,10 @@ def para_convertir():
 
         etiqueta_romano.config(text=f"Su número en romano es: ", font=("Times New Roman", 12))
         etiqueta_rrespuesta.config(text=f"{resultado}", foreground="red" ,font=("Times New Roman", 12))
-        ventana.after(6000, lambda: etiqueta_rrespuesta.config(text=""))
-        ventana.after(14000, lambda: etiqueta_rrespuesta.config(text=""))
-        ventana.after(6000, lambda: etiqueta_romano.config(text="Ingresa otro número...",foreground="green", font=("Times New Roman", 12)))
-        ventana.after(14000, lambda: etiqueta_romano.config(text=""))
+        ventana.after(4000, lambda: etiqueta_rrespuesta.config(text=""))
+        ventana.after(11000, lambda: etiqueta_rrespuesta.config(text=""))
+        ventana.after(4000, lambda: etiqueta_romano.config(text="Ingresa otro número...",foreground="green", font=("Times New Roman", 12)))
+        ventana.after(11000, lambda: etiqueta_romano.config(text=""))
     except ValueError as e:
         etiqueta_letras.config(text="Introduce valores dentro del rango 1 - 3999.", foreground="red")
         ventana.after(2000, lambda: etiqueta_letras.config(text=""))
