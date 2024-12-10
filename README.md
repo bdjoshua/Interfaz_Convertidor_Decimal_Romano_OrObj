@@ -6,5 +6,5 @@ Interfaz para nuestro problema con la clase de fundamentos de programación del 
 
 
 ### Realizado por:
-  #### [Joshua Alejandro Barrera Domínguez.]([https://github.com/bdjoshua](https://www.instagram.com/bd_joshua/profilecard/?igsh=MXBpdmpxNzIwYXF1Mg==)) 
+  #### [Joshua Alejandro Barrera Domínguez.](https://www.instagram.com/bd_joshua/profilecard/?igsh=MXBpdmpxNzIwYXF1Mg==) 
   ##### Grupo: 1A6
